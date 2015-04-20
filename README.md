@@ -3,7 +3,7 @@ Simple tutorial with custom transitions
 
 
 <p align="center">
-  <img src="https://github.com/Vaberer/PVGuide/blob/master/demo.gif"/>
+  <img height="480" src="https://github.com/Vaberer/PVGuide/blob/master/demo.gif"/>
 </p>
 
 <h2>Installation</h2>
@@ -30,6 +30,7 @@ PVGuide hides status bar so you need to add to the info.plist key <code>View con
 
     UIStoryboard *storyboard = self.storyboard;
     PVGuideMainVC *controller = (PVGuideMainVC *)[storyboard instantiateViewControllerWithIdentifier:@"PVGuideMainVC"];
+    controller.delegateTutorial = self; //in case to call delegate
     
     NSMutableArray *data = [[NSMutableArray alloc]init];
     NSDictionary *dic1 = @{title: @"Welcome to PVGuide",
@@ -37,10 +38,17 @@ PVGuide hides status bar so you need to add to the info.plist key <code>View con
                            };
     [data addObject:dic1];
     controller.data = data;
-    //top title
-    controller.guideTitle = @"PVGuide";
+    controller.guideTitle = @"PVGuide"; //top title
     [self presentViewController:controller animated:YES completion:nil];
 ```
+
+<h2>Delegate</h2>
+To implement delegate, use <code>DelegateTutorial</code> and call<br>
+```Objective-C
+- (void)didDismissTutorial {}
+```
+
+
 
 <h2>Author</h2>
 
