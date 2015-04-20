@@ -3,7 +3,7 @@ Simple tutorial with custom transitions
 
 
 <p align="center">
-  <img src="https://github.com/Vaberer/PVGuide/blob/master/demo.gif" />
+  <img src="https://github.com/Vaberer/PVGuide/blob/master/demo.gif"/>
 </p>
 
 <h2>Installation</h2>
@@ -21,7 +21,8 @@ Copy files:<br>
 <code>TutorialVC.h</code><br>
 <code>TutorialVC.m</code><br>
 
-PVGuide hides status bar so you need to add to the info.plist 
+PVGuide hides status bar so you need to add to the info.plist key <code>View controller-based status bar appearance</code> with value <code>NO</code>.<br>
+<img src="https://github.com/Vaberer/PVGuide/blob/master/plist.png"/>
 
 <h2>How to call tutorial and populate with data</h2>
 ```Objective-C
@@ -38,8 +39,7 @@ PVGuide hides status bar so you need to add to the info.plist
     controller.data = data;
     //top title
     controller.guideTitle = @"PVGuide";
-    UIViewController *c = self;
-    [c presentViewController:controller animated:YES completion:nil];
+    [self presentViewController:controller animated:YES completion:nil];
 ```
 
 <h2>Author</h2>
