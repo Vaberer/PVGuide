@@ -183,6 +183,7 @@
 				TargetAttributes = {
 					4EC874E01AE4C6A700124297 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 45BUKB37UN;
 					};
 					4EC874F91AE4C6A700124297 = {
 						CreatedOnToolsVersion = 6.2;
@@ -363,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PVGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PVGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +435,7 @@
 				4EC875061AE4C6A700124297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EC875071AE4C6A700124297 /* Build configuration list for PBXNativeTarget "PVGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +444,7 @@
 				4EC875091AE4C6A700124297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
