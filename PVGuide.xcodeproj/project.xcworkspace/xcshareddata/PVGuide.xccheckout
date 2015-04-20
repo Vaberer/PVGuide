@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>61073B09-0ECB-4E23-BECE-3789F9D1BFD4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PVGuide</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F2E28BF7AD43A6252E976E0F27D727ACCB17856</key>
+		<string>https://github.com/Vaberer/PVGuide.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PVGuide.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F2E28BF7AD43A6252E976E0F27D727ACCB17856</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Vaberer/PVGuide.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F2E28BF7AD43A6252E976E0F27D727ACCB17856</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F2E28BF7AD43A6252E976E0F27D727ACCB17856</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PVGuide</string>
+		</dict>
+	</array>
+</dict>
+</plist>
