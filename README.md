@@ -1,5 +1,5 @@
 # PVGuide
-Simple tutorial with custom transitions
+Simple tutorial screen with custom transitions.
 
 
 <p align="center">
